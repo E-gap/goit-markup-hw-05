@@ -96,6 +96,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     color: var(--primary-color);
     text-decoration: none;
     font-family: var(--primary-font);
+    
 }
 .list {
     text-decoration: none;
@@ -136,10 +137,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .smartphone-icon {      
     margin-right: 10px;
-}
-
-.menu-item-email {
-    margin-right: 30px;
 }
 
 .flex-center {
@@ -186,6 +183,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
         letter-spacing: 0.02em;    
         color:#2196F3;
         text-decoration: none;
+        margin-right: 30px;
+        
+
         }
 
 .menu-item-phone {
@@ -910,6 +910,56 @@ transform: translate(-50%, -50%) scale(0.5);
     transform: translateY(0);
 }
 
-                .work-examples-border:focus .overlay-p {
-                    transform: translateY(0);
-                }
+.menu-item-email,
+.menu-link,
+.menu-item,
+.menu-item-phone,
+.social-nets,
+.clients-logo,
+.join-nets,
+.envelope-email,
+.address-contacts-email,
+.address-street,
+.menu-studio,
+.menu-portfolio,
+.menu-contacts,
+.filters-button {
+
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.envelope-icon,
+.envelope-email,
+.smartfone-phone,
+.social-nets,
+.instagram,
+.twitter,
+.facebook,
+.linkedin,
+.logo1,
+.logo2,
+.logo3,
+.logo4,
+.logo5,
+.logo6,
+.clients-logo,
+.join-nets svg,
+.menu-item-email,
+.menu-item-email {
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.social-nets,
+.social-nets.join-nets,
+.filters-button
+{
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.filters-li,
+.work-examples-border {
+transition: shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
