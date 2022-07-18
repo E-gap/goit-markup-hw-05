@@ -906,9 +906,12 @@ transform: translate(-50%, -50%) scale(0.5);
 
 }
 
-.work-examples-border:hover .overlay-p {
+.work-examples-border:hover .overlay-p,
+.work-examples-border:focus .overlay-p {
     transform: translateY(0);
 }
+
+
 
 .menu-item-email,
 .menu-link,
